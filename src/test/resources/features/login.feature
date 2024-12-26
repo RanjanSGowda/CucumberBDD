@@ -1,6 +1,6 @@
 Feature: Login feature fos OpenCart Application
 
-  Scenario: Validate Login scenario with valid username and password
+  Scenario: Validate Login scenario with valid username and password.
     Given User is on the Login page
     When User enters a valid username and password
     And User clicks on Login button
