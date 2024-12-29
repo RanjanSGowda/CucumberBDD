@@ -18,7 +18,7 @@ Feature: Login feature fos OpenCart Application
       | Raj212   | Test1221234 | Warning: No match for E-Mail Address and/or Password. |
 
   @Ranjan
-  Scenario: Validate Forgot password link on Login page
+  Scenario: Validate Forgot password link on Login page.
     Given User is on the Login page
     When User verifies the Forgot password
     When User clicks on Forgot Password link
